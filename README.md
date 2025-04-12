@@ -37,22 +37,48 @@ To ensure the dashboard loads and functions correctly:
 
 ---
 
+Here’s your **Local Setup** section restructured properly for your `README.md` file using correct Markdown formatting (with code blocks instead of inline comments):
+
+---
+
 ## 💻 Local Setup
 
-# 1. Clone the repository
+Follow these steps to set up and run the dashboard locally:
+
+1. **Clone the repository**
+
+```bash
 git clone https://github.com/yourusername/sales-dashboard.git
 cd sales-dashboard
+```
 
-# 2. (Optional) Create & activate a virtual environment
+2. **(Optional) Create and activate a virtual environment**
+
+**On macOS/Linux:**
+
+```bash
 python -m venv venv
-source venv/bin/activate         # On Windows: venv\Scripts\activate
+source venv/bin/activate
+```
 
-# 3. Install dependencies
+**On Windows:**
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+3. **Install the dependencies**
+
+```bash
 pip install -r requirements.txt
+```
 
-# 4. Run the dashboard
+4. **Run the Streamlit dashboard**
+
+```bash
 streamlit run sales_dashboard.py
-
+```
 
 ---
 
